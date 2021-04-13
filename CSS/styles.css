@@ -1,0 +1,44 @@
+@import "other.css";
+@import "some.css";
+@import "mos.css";
+
+/*On mobile*/
+@media screen and (max-width: 600px) {
+    * {
+        width: fit-content;
+    }
+    .b {
+        width: 100%;
+    }
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #9dc5e6;
+        padding: 2.5px;
+    }
+
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #ff2323;
+        padding: 2.5px;
+    }
+
+    .grid-item {
+        background-color: rgba(211, 211, 211, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 5px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .iframe-container {
+        position: relative;
+        width: 320;
+        padding-bottom: 75%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}

@@ -1,0 +1,65 @@
+/*everything*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+/*--------------------------------------------*/
+
+/*giving the html background a darker color*/
+html {
+    background-color: lightgray;
+}
+/*--------------------------------------------*/
+
+/*other*/
+header {
+    display: flex;
+}
+h1 {
+    text-align: center;
+    font-family: "Gill Sans", "Arial";
+    color: red;
+}
+h2 {
+    text-align: center;
+    font-family: "Gill Sans", "Arial";
+    color: red;
+}
+h3 {
+    text-align: center;
+    font-family: "Gill Sans", "Arial";
+    color: red;
+}
+h4.a {
+    text-align: center;
+    font-family: "Gill Sans", "Arial";
+}
+p.a {
+    text-align: center;
+    font-size: 30px;
+}
+img.a {
+    width: 100%;
+    height: auto;
+}
+h4.s1 {
+    color: darkgreen;
+}
+h4.s2 {
+    color: cyan;
+}
+h4.s3 {
+    color: lightcoral;
+}
+/*link style*/
+a.f {
+    color: rgb(0, 0, 134);
+}
+a.t {
+    color: cyan;
+}
+a.l {
+    color: darkcyan;
+}
